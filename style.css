@@ -1,6 +1,7 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
     background-color: #2b2b2b;
+    margin: 0;
 }
 
 * {
@@ -9,19 +10,11 @@ body {
 }   
 
 html {
-    max-width: 70ch;
-    padding: 3em 1em;
+    /* max-width: 70ch;
+    padding: 3em 1em; */
     margin: auto;
     line-height: 1.75;
-    font-size: 1.25em;
-}
-
-h1,h2,h3,h4,h5,h6 {
-    margin: 3em 0 1em;
-  }
-  
-p,ul,ol {
-margin-bottom: 2em;
+    /* font-size: 1.25em; */
 }
 
 header {
@@ -29,7 +22,7 @@ header {
     /* width: 100%; */
     background-color: #2b2b2b;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -40,14 +33,327 @@ nav {
 }
 
 .logo {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     background-color: #ededed; 
 }
 
 .btn {
-    width: 300px;
-    height: 20px;
+    width: 140px;
+    height: 40px;
     background-color: #423f35;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
 }
+
+.first-floor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 90vh;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 14px;
+    margin: 0 24%;
+    
+}
+
+h2 {
+    font-size: 2.1em;  
+    letter-spacing: 2px;
+}
+
+.second-floor {
+    height: 60vh;
+    display: flex;  
+}
+
+.left {
+    width: 50%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-cards {
+    display: flex;
+    margin: 0 20%;
+}
+
+.card {
+    /* padding: 0 10px; */
+    width: 200px;
+    margin: 10px;
+}
+
+.right {
+    width: 50%;
+    margin: 0;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-img {
+    width: 400px;
+    height: 400px;
+    background-color: #ededed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h5 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.big-img {
+    box-sizing: border-box;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+}
+
+.third-floor {
+    height: 50vh;
+    display: flex;
+    margin-top: 50px;
+}
+
+.info-skills {
+    width: 50%;
+    margin: 0;
+    /* background-color: rgb(25, 0, 255); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skills {
+    width: 50%;
+    margin: 0;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-skills {
+    display: flex;
+    margin: 0 20%;
+}
+
+.skill-card {
+    width: 160px;
+    margin: 10px;
+}
+
+.skills-txt {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 5px;
+}
+
+h6 {
+    font-size: 1.8em;
+    margin: 0;
+}
+
+.info-txt {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.info-txt-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 415px;
+}
+
+.fourth-floor {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.team-info-box {
+    width: 33%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.team-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 200px;
+}
+
+.small-box {
+    background-color: #ededed;
+    width: 180px;
+    height: 180px;
+    border-radius: 4px;
+    border: none;
+    margin: 30px;
+    /* background-image: url('/img/template.png'); */
+    box-sizing: border-box;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pics {
+    display: flex;
+    width: 67%;
+    margin: 0;
+}
+
+.small-img {
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.fifth-floor {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: green; */
+}
+
+.artists {
+    display: flex;
+}
+
+.artist {
+    background-color: #ededed;
+    border-radius: 4px;
+    width: 350px;
+    height: 220px;
+    margin: 30px;
+}
+
+.info-artist {
+    width: 300px;
+}
+
+.bio-artist {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cb {
+    color: #171010;
+    font-weight: 600;
+    margin: 0;
+}
+
+.fwb {
+    font-weight: bold;
+    color: #171010;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.artist-text-box {
+    padding: 40px;
+}
+
+.figma {
+    background-image: url('./img/figma.png');
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    margin: 9%;
+}
+
+.contacts-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 135px;
+    margin: 9%;
+}
+
+.socials {
+    display: flex;
+    margin: 3px;
+}
+
+.in, .twitter, .facebook, .instagram {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 9px;  
+}
+
+.in {
+    background-image: url('./img/linkedin.png');
+}
+
+.twitter {
+    background-image: url('/img/twitter.png');
+}
+
+.facebook {
+    background-image: url('./img/facebook.png');
+}
+
+.instagram {
+    background-image: url('./img/instagram.png');
+}
+
+footer {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h8 {
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 13px;
+}
+
+.m0 {
+    margin: 0;
+}
+
+
+
 
